@@ -15,6 +15,7 @@ function ListUserSection({ users }: UserProps) {
         {toDisplay.map((e, index) => (
           <Avatar
             src={e.image}
+            key={index}
             size={'md'}
             className="border-3 border-white absolute"
             style={{

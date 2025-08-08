@@ -1,15 +1,12 @@
 'use client';
 import React from 'react';
 import { overviewColumn } from '@/columns/overviewColumn';
-import { AppButton } from '@/components/AppButton';
 import { EmptyState } from '@/components/EmptyState';
 import { GridTable } from '@/components/GridTable';
-import StatusPill from '@/components/StatusPill';
 import { transactionData, users } from '@/data/mock';
 import DashboardLayout from '@/layout/DashboardLayout';
 import { colors } from '@/theme/theme';
-import { Avatar, Tabs } from '@mantine/core';
-import { IconCaretDownFilled, IconDots } from '@tabler/icons-react';
+import { Tabs } from '@mantine/core';
 import SummarySection from './SummarySection';
 import ListUserSection from './ListUserSection';
 import TopSection from './TopSection';

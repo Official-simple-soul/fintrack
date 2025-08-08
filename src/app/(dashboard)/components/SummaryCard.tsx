@@ -1,6 +1,5 @@
-// components/SummaryCard.tsx
 import { colors } from '@/theme/theme';
-import { Box, Menu } from '@mantine/core';
+import { Menu } from '@mantine/core';
 import { IconDots } from '@tabler/icons-react';
 
 type SummaryCardProps = {

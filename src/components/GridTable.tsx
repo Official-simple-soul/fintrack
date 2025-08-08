@@ -19,7 +19,7 @@ type GridTableProps<T> = {
   className?: string;
 };
 
-export function GridTable<T extends Record<string, any>>({
+export function GridTable<T extends Record<string, unknown>>({
   columns,
   data,
   className = '',
